@@ -1,0 +1,150 @@
+/* Resetting some basic elements */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e282a; /* Raisin black */
+    color: #e4572e; /* Flame */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Styling the header */
+.header {
+    background: #17bebb; /* Verdigris */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    background: #ffc914; /* Jonquil */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e4572e; /* Flame */
+}
+
+/* List container styling */
+#listContainer {
+    background: #fff;
+    color: #333;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List item styling */
+#listContainer ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#listContainer ul li:last-child {
+    border-bottom: none;
+}
+
+/* Additional styling */
+.footer {
+    background: #76b041; /* Kelly green */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#detailsContainer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+}
+
+#backButton {
+    display: block;
+    margin-bottom: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    background: #555;
+}
+
+#cigarImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h2#cigarName {
+    margin-bottom: 10px;
+    color: #e4572e; /* Flame color */
+    font-size: 1.5em;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.star {
+    cursor: pointer;
+    color: lightgrey; /* Default color for empty stars */
+    font-size: 1.5em;
+}
+
+.star.rated {
+    color: gold; /* Color for filled stars */
+}
+
+
+#resetRating {
+    margin-top: 10px;
+    /* additional styling */
+}
+
+.rating-indicator {
+    display: inline-block;
+    color: darkorange;
+    /* additional styling */
+}
+
+.cigar-item {
+    padding: 10px 20px;
+    margin: 10px 0; /* Space between items */
+    border-radius: 5px; /* Slightly rounded corners for the items */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.cigar-item:hover {
+    background-color: gold; /* Lighten the item background on hover */
+}

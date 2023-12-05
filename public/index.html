@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Top 10 Best Cigars Of 2022</h1>
+        <div id="listContainer"></div>
+    </div>
+    
+    <div id="detailsContainer" style="display: none;">
+        <button id="backButton">Back</button>
+        <img id ="cigarImage" src=""/>
+        <h2 id="cigarName"></h2>
+        <p id="cigarDetails"></p>
+        <p id="cigarCountry"></p>
+        <p id="cigarStrength"></p>
+        <p id="cigarWrapper"></p>
+        <p id="cigarColor"></p>
+        
+        <div id="ratingContainer">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <button id="resetRating">Reset Rating</button>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
