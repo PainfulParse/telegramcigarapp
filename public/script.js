@@ -90,7 +90,6 @@ function updateRatingIndicator(cigarName, rating) {
     }
 }
 
-
 // Start the show!
 document.addEventListener('DOMContentLoaded', () => {
     initializeCigars();
